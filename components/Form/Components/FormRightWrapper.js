@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import {TailSpin} from 'react-loader-spinner'
 import {create as IPFSHTTPClient} from 'ipfs-http-client';
 
-const projectId = '2LbIPG72l4G3iQlBugNvKTZkP1q'
+const projectId = '2LbIPG72l4G3iQlBugNvKTZkP1q' //This is project id from infura.
 const projectSecret = '935e583b61d9b9945860d060cf1d7283'
 const auth = 'Basic ' + Buffer.from(projectId + ":" + projectSecret).toString('base64')
 
